@@ -16,7 +16,7 @@ function validateForm(e){
   var confirmPwd = document.getElementById('confirmPwd').value;
 
   if(username == '' || username.length < 6 ){
-    errorMsgs[0].innerHTML = "Please Enter Username.";
+    errorMsgs[0].innerHTML = "Username nust be at least 6 characters.";
     return;
   }
 

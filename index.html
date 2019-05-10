@@ -15,33 +15,25 @@
       <h1 id="brand">MLV</h1>
       <h2 class="title">My Login Validator</h2>
 
-      <div class="errorbox hide">
-        <ul id="errors">
-          <li>Item 1</li>
-          <li>Item 2</li>
-        </ul>
+      <div id="contentWrapper">
+        <form>
+          
+          <label for="username">Username <br /> <span class="errorMsg"></span></label>
+          <input type="text" id="username" required />
+          
+          <label for="email">Your Email <br /> <span class="errorMsg"></span></label>
+          <input type="email" id="email" required />
+
+          <label for="password">Password <br /> <span class="errorMsg"></span></label>
+          <input type="password" id="password" required />
+
+          <label for="confirmPwd">Confirm Password <br /> <span class="errorMsg"></span></label>
+          <input type="password" id="confirmPwd" required />
+
+          <button id="submitBtn">Login</button>
+
+        </form>
       </div>
-
-      <form action="#">
-        
-        <label for="firstName">First Name</label>
-        <input type="text" id="firstName" required />
-        
-        <label for="lastName">Last Name</label>
-        <input type="text" id="lastName" required />
-        
-        <label for="email">Your Email</label>
-        <input type="email" id="email" required />
-
-        <label for="password">Password</label>
-        <input type="password" id="password" required />
-
-        <label for="confirmPwd">Confirm Password</label>
-        <input type="password" id="confirmPwd" required />
-
-        <button id="submitBtn">Login</button>
-
-      </form>
     </div>
   </div>
 
